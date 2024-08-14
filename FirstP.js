@@ -1,0 +1,12 @@
+var userNum1 = +prompt("لطفا عدد اول را وارد کنید");
+var userNum2 = +prompt("لطفا عدد دوم را وارد کنید");
+var sum = userNum1 + userNum2;
+console.log("result sum : " + sum);
+var sub = userNum1 - userNum2;
+console.log("result sub : " + sub);
+var mul = userNum1 * userNum2;
+console.log("result mul : " + mul);
+var div = userNum1 / userNum2;
+console.log("result div : " + div);
+var pow = userNum1 ** userNum2;
+console.log("result pow : " + pow);
