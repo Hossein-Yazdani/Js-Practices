@@ -5,12 +5,9 @@
 //     var userAverage = +prompt("لطفا معدل را دوباره وارد کنید");
 //   }}else{
 
-//       switch (userAverage) {
-//         case 18:
-//         case 19:
-//         case 20:
-//           alert("شما جز دسته اول بوده و سطح شما A میباشد");
-    
+//       switch (true) {
+//         case(20>=userAverage && userAverage >= 18):
+//             alert("شما جز دسته اول بوده و سطح شما A میباشد");
 //           break;
 //         case 15:
 //         case 16:
