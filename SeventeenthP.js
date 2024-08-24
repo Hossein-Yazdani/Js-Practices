@@ -1,11 +1,11 @@
 // var userNum = null;
 // for (i = 0; i < 5; i++) {
 //   while (isNaN(userNum)) {
-//     alert("فقط استفاده از ارقام مجاز میباشد لطفا دوباره امتحان کنید!");
-//     userNum = +prompt("لطفا عددی را وارد کنید");
+//     alert("فقط استفاده از ارقام مجاز میباشد لطفا از اول امتحان کنید!");
+//     userNum = +prompt("لطفا عدد " + (i) + " را وارد کنید");
 //     i = 1;
 //   }
-//   userNum = userNum + +prompt("لطفا عددی را وارد کنید");
+//   userNum = userNum + +prompt("لطفا عدد " + (i + 1) + " را وارد کنید");
 //   if (isNaN(userNum)) {
 //     i = 0;
 //   }
